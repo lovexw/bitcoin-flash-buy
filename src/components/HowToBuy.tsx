@@ -16,7 +16,7 @@ export function HowToBuy() {
 
   return (
     <Section id="how-to-buy" className="bg-white rounded-3xl shadow-sm my-10">
-      <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">如何获得第一枚比特币？</h2>
+      <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">如何购买0.003枚比特币？</h2>
       <div className="space-y-6 text-lg text-gray-800 leading-relaxed font-normal">
         <p>
           连接现实世界与数字黄金的桥梁，就是<strong>交易所</strong>。

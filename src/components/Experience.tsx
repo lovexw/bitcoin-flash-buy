@@ -12,7 +12,7 @@ export function Experience() {
           最好的学习方式，就是拥有你的第一笔比特币。
         </p>
         <p>
-          不需要买一个完整的比特币（太贵了！）。你可以只买 <strong>100 元</strong>。
+          不需要买一个完整的比特币（太贵了！）。你可以只买 <strong>1000 元</strong>。
           当你拥有了它，你就会开始关注它，去学习它的波动，去理解它的价值。
         </p>
         <div className="bg-gray-100 p-6 rounded-xl border-l-4 border-bitcoin-orange">

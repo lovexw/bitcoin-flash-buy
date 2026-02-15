@@ -19,9 +19,9 @@ export function Consultation() {
         <div className="relative inline-block">
           <button 
             className="bg-bitcoin-orange text-white px-8 py-4 rounded-full text-xl font-bold hover:bg-orange-600 transition-transform hover:scale-105 active:scale-95 shadow-lg relative z-20"
-            onMouseEnter={() => setShowQR(true)}
-            onMouseLeave={() => setShowQR(false)}
-            onClick={() => setShowQR(!showQR)}
+            onMouseEnter={() => window.innerWidth >= 768 && setShowQR(true)}
+            onMouseLeave={() => window.innerWidth >= 768 && setShowQR(false)}
+            onClick={() => setShowQR((prev) => !prev)}
           >
             联系我
           </button>
