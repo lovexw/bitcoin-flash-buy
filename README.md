@@ -1,12 +1,13 @@
-# Bitcoin Flash (比特币快闪)
+# 比特币购买（快闪版）
 
-优雅简洁的比特币入门网站，帮助新人从 0 到 100 建立认知。
+这是一个成品版的比特币入门介绍网站，旨在帮助新人从 0 到 100 建立对比特币的认知。网站设计优雅简洁，内容清晰直白，基于第一性原理进行解释。
 
 ## 项目特点
 
 - **极简设计**: 优雅、丝滑、清晰直白。
 - **第一性原理**: 从本质解释比特币、交易和存储。
 - **响应式布局**: 完美适配手机和桌面端。
+- **成品交付**: 包含完整的交易所推荐（欧易）、教程引导及硬件钱包（OneKey）购买指引。
 
 ## 技术栈
 
@@ -43,14 +44,6 @@ npm run build
    - **Build command**: `npm run build`
    - **Build output directory**: `dist`
 5. 点击 Deploy。
-
-## 待更新内容
-
-请搜索代码中的 "待更新" 或 `#` 链接，替换为您自己的邀请链接和邀请码：
-
-- `src/components/HowToBuy.tsx`: Binance 和 OKX 的邀请链接/邀请码。
-- `src/components/Wallet.tsx`: OneKey 钱包购买链接。
-- `src/components/Consultation.tsx`: 联系方式。
 
 ## License
 
