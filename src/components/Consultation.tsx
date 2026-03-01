@@ -13,7 +13,9 @@ export function Consultation() {
         <MessageCircle className="w-12 h-12 text-bitcoin-orange mx-auto mb-6" />
         <h2 className="text-3xl md:text-4xl font-bold mb-6">免费咨询服务</h2>
         <p className="text-lg text-gray-300 max-w-2xl mx-auto mb-8 px-4 font-normal">
-          如果你确定使用我的邀请码注册交易所，并且能完成<strong className="text-bitcoin-orange text-xl mx-1">实名认证+100USDT</strong>的现货比特币交易，我可以免费指导你完成从交易所提币到钱包的全过程。请通过飞书添加我的账号进行沟通。
+          如果你确定使用我的邀请码注册交易所，并且能完成<strong className="text-bitcoin-orange text-xl mx-1">实名认证+100USDT</strong>的现货比特币交易，我可以免费指导你完成从交易所提币到钱包的全过程。
+          <br />
+          请通过飞书添加我的账号进行沟通。
         </p>
         
         <div className="relative inline-block">
@@ -90,8 +92,15 @@ export function Consultation() {
                     className="w-full h-full object-contain"
                   />
                 </div>
+                <a
+                  href={qrCode}
+                  download="feishu-qr.jpg"
+                  className="flex items-center justify-center w-full rounded-full border border-gray-200 text-gray-700 font-semibold py-2.5 mb-3 hover:border-gray-300 hover:text-gray-900 transition"
+                >
+                  保存二维码到相册
+                </a>
                 <p className="text-center text-gray-600 font-medium">
-                  请截图扫码添加飞书
+                  请截图扫码添加飞书，或长按图片保存
                 </p>
              </motion.div>
           </motion.div>
