@@ -1,0 +1,130 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - heading "第一性原理：什么是比特币？" [level=2] [ref=e6]
+      - generic [ref=e7]:
+        - paragraph [ref=e8]: 想象一个巨大的、公开的账本，漂浮在云端。没有银行，没有管理员，没有CEO。
+        - paragraph [ref=e9]: 这个账本记录着每一笔交易，但它不属于任何人，而是属于所有人。 通过数学和代码（而非信任），它保证了：
+        - list [ref=e10]:
+          - listitem [ref=e11]:
+            - strong [ref=e12]: 稀缺性：
+            - text: 总量恒定 2100 万枚，无法增发。
+          - listitem [ref=e13]:
+            - strong [ref=e14]: 不可篡改：
+            - text: 一旦写入，永远无法撤销。
+          - listitem [ref=e15]:
+            - strong [ref=e16]: 去中心化：
+            - text: 只要有网络，你的资产就真正属于你。
+        - paragraph [ref=e17]: 它是数字世界的黄金，是绝对的数学真理。
+    - generic [ref=e18]:
+      - heading "先上车，后补票" [level=2] [ref=e19]
+      - generic [ref=e20]:
+        - paragraph [ref=e21]: 不要试图完全理解了才开始。游泳是游出来的，不是看书看出来的。
+        - paragraph [ref=e22]: 最好的学习方式，就是拥有你的第一笔比特币。
+        - paragraph [ref=e23]:
+          - text: 不需要买一个完整的比特币（太贵了！）。你可以只买
+          - strong [ref=e24]: 1000 元
+          - text: 。 当你拥有了它，你就会开始关注它，去学习它的波动，去理解它的价值。
+        - paragraph [ref=e26]: "\"纸上得来终觉浅，绝知此事要躬行。\""
+    - generic [ref=e27]:
+      - heading "如何购买0.003枚比特币？" [level=2] [ref=e28]
+      - generic [ref=e29]:
+        - paragraph [ref=e30]:
+          - text: 连接现实世界与数字黄金的桥梁，就是
+          - strong [ref=e31]: 交易所
+          - text: 。
+        - paragraph [ref=e32]:
+          - text: 最常用的方式是
+          - strong [ref=e33]: C2C (Customer to Customer)
+          - text: 交易。 它的逻辑和淘宝购物一样：
+        - list [ref=e34]:
+          - listitem [ref=e35]: 你在平台下单购买。
+          - listitem [ref=e36]: 你向卖家转账（支付宝/微信/银行卡）。
+          - listitem [ref=e37]: 卖家确认收款，平台放币给你。
+        - generic [ref=e38]:
+          - generic [ref=e39]:
+            - generic [ref=e40]:
+              - img [ref=e41]
+              - text: 重点推荐
+            - link "OKX (欧易)" [ref=e43] [cursor=pointer]:
+              - /url: https://www.glneokotyjv.com/join/2160255
+              - heading "OKX (欧易)" [level=3] [ref=e44]
+              - img [ref=e45]
+            - paragraph [ref=e49]: 中文体验极佳，对新手最友好的老牌交易所
+            - generic "点击复制邀请码" [ref=e50] [cursor=pointer]:
+              - generic [ref=e51]: "邀请码:"
+              - generic [ref=e52]:
+                - code [ref=e53]: "2160255"
+                - img [ref=e54]
+          - generic [ref=e57]:
+            - link "中国大陆用户购买比特币教程" [ref=e58] [cursor=pointer]:
+              - /url: https://buy.btchao.com/
+              - heading "中国大陆用户购买比特币教程" [level=3] [ref=e59]
+              - img [ref=e60]
+            - paragraph [ref=e64]: 详细的安全指南，手把手教你如何合规购买
+            - link "查看完整教程" [ref=e65] [cursor=pointer]:
+              - /url: https://buy.btchao.com/
+        - paragraph [ref=e66]: "*使用邀请链接注册可享受交易手续费减免"
+    - generic [ref=e67]:
+      - heading "真正拥有你的资产" [level=2] [ref=e68]
+      - generic [ref=e69]:
+        - paragraph [ref=e70]:
+          - text: 放在交易所的币，严格来说不属于你，那是交易所欠你的债（IOU）。 只有提币到自己的钱包，掌握了
+          - strong [ref=e71]: 私钥
+          - text: ，你才是真正的主人。
+        - generic [ref=e72]:
+          - generic [ref=e73]:
+            - img [ref=e74]
+            - heading "软件钱包 (热钱包)" [level=3] [ref=e76]
+            - paragraph [ref=e77]: 适合小额日常使用，免费、便捷
+            - list [ref=e78]:
+              - listitem [ref=e79]:
+                - strong [ref=e80]: "OneKey App:"
+                - text: 体验极佳，开源安全
+              - listitem [ref=e81]:
+                - strong [ref=e82]: "imToken:"
+                - text: 老牌国产钱包
+          - generic [ref=e83]:
+            - img [ref=e84]
+            - heading "硬件钱包 (冷钱包)" [level=3] [ref=e86]
+            - paragraph [ref=e87]: 大额资产必备，私钥永不触网
+            - paragraph [ref=e88]:
+              - text: 推荐
+              - strong [ref=e89]: OneKey
+              - text: 硬件钱包。安全、易用、全平台支持。
+            - link "购买 OneKey" [ref=e90] [cursor=pointer]:
+              - /url: https://onekey.so/r/G7CPQB
+            - 'button "优惠码（10%折扣）: 353NJY" [ref=e91] [cursor=pointer]':
+              - generic [ref=e92]: "优惠码（10%折扣）:"
+              - generic [ref=e93]:
+                - code [ref=e94]: 353NJY
+                - img [ref=e95]
+    - generic [ref=e98]:
+      - heading "长期主义与定投" [level=2] [ref=e99]
+      - generic [ref=e100]:
+        - img [ref=e102]
+        - paragraph [ref=e105]: 比特币不是一夜暴富的彩票，而是对抗通胀的方舟。
+        - paragraph [ref=e106]: 第一性原理告诉我们，法币（美元、人民币）的购买力长期看是下降的，而总量恒定的比特币长期看是上涨的。
+        - heading "最佳策略：定投 (DCA)" [level=3] [ref=e107]
+        - paragraph [ref=e108]:
+          - text: 不要预测市场，没人能预测。
+          - strong [ref=e109]: 定期、定额
+          - text: 买入，无视短期波动。 把时间拉长到 4 年（一个减半周期），你会感谢今天的自己。
+    - generic [ref=e111]:
+      - img [ref=e112]
+      - heading "免费咨询服务" [level=2] [ref=e114]
+      - paragraph [ref=e115]:
+        - text: 如果你确定使用我的邀请码注册交易所，并且能完成
+        - strong [ref=e116]: 实名认证+100USDT
+        - text: 的现货比特币交易，我可以免费指导你完成从交易所提币到钱包的全过程。请通过飞书添加我的账号进行沟通。
+      - button "飞书联系" [ref=e118]
+      - paragraph [ref=e119]: "* 硬件钱包咨询需提供购买凭证"
+  - contentinfo [ref=e120]:
+    - generic [ref=e121]:
+      - paragraph [ref=e122]: 风险提示 (Risk Warning)
+      - paragraph [ref=e123]:
+        - text: 本站内容仅供科普和教育目的，不构成任何投资建议。
+        - text: 加密货币市场波动巨大，存在较高的市场风险和法律风险，请务必遵守您所在国家或地区的法律法规。
+      - paragraph [ref=e124]: 如果您是抱有短期投机、杠杆交易或赌徒心态，请勿购买比特币，也请勿联系咨询。
+      - paragraph [ref=e125]: 投资有风险，入市需谨慎。
+      - paragraph [ref=e127]: © 2026 Bitcoin Flash. All rights reserved.
