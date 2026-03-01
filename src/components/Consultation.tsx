@@ -2,7 +2,7 @@ import { Section } from './Section';
 import { MessageCircle, X } from 'lucide-react';
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import qrCode from '../assets/kefuweixin.jpg';
+import qrCode from '../assets/kefufeishu.jpg';
 
 export function Consultation() {
   const [showQR, setShowQR] = useState(false);
@@ -14,6 +14,8 @@ export function Consultation() {
         <h2 className="text-3xl md:text-4xl font-bold mb-6">免费咨询服务</h2>
         <p className="text-lg text-gray-300 max-w-2xl mx-auto mb-8 px-4 font-normal">
           如果你确定使用我的邀请码注册交易所，并且能完成<strong className="text-bitcoin-orange text-xl mx-1">实名认证+100USDT</strong>的现货比特币交易，我可以免费指导你完成从交易所提币到钱包的全过程。
+          <br />
+          请通过飞书添加我的账号进行沟通。
         </p>
         
         <div className="relative inline-block">
@@ -23,7 +25,7 @@ export function Consultation() {
             onMouseLeave={() => window.innerWidth >= 768 && setShowQR(false)}
             onClick={() => setShowQR((prev) => !prev)}
           >
-            联系我
+            飞书联系
           </button>
 
           <AnimatePresence>
@@ -39,13 +41,13 @@ export function Consultation() {
                   <div className="w-48 h-48 md:w-56 md:h-56">
                     <img 
                       src={qrCode} 
-                      alt="WeChat QR Code" 
+                      alt="Feishu QR Code" 
                       className="w-full h-full object-contain"
                     />
                   </div>
                   <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-4 h-4 bg-white rotate-45 transform"></div>
                   <div className="text-center mt-2">
-                    <p className="text-gray-900 text-sm font-bold">扫码添加微信</p>
+                    <p className="text-gray-900 text-sm font-bold">扫码添加飞书</p>
                   </div>
                 </div>
               </motion.div>
@@ -82,16 +84,23 @@ export function Consultation() {
                 >
                   <X className="w-6 h-6" />
                 </button>
-                <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">联系我</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">飞书联系</h3>
                 <div className="aspect-square w-full bg-gray-50 rounded-xl overflow-hidden mb-4">
                   <img 
                     src={qrCode} 
-                    alt="WeChat QR Code" 
+                    alt="Feishu QR Code" 
                     className="w-full h-full object-contain"
                   />
                 </div>
+                <a
+                  href={qrCode}
+                  download="feishu-qr.jpg"
+                  className="flex items-center justify-center w-full rounded-full border border-gray-200 text-gray-700 font-semibold py-2.5 mb-3 hover:border-gray-300 hover:text-gray-900 transition"
+                >
+                  保存二维码到相册
+                </a>
                 <p className="text-center text-gray-600 font-medium">
-                  请截图扫码添加微信
+                  请截图扫码添加飞书，或长按图片保存
                 </p>
              </motion.div>
           </motion.div>
